@@ -5,20 +5,20 @@ export default defineConfig({
   plugins: [vue()],
   build: {
     lib: {
-      entry: "./src/main.ts", // adjust the entry file as per your project structure
-      name: "VueKTDEV",
-      fileName: (format) => `vue-ktdev.${format}.js`,
+      entry: "./src/main.ts",
+      name: "VerifyButton",
+      fileName: (format) => `vue-sourceid-verify.${format}.js`,
       formats: ["es", "cjs", "umd"],
     },
     rollupOptions: {
-      // Make sure to externalize Vue to prevent it from being bundled
       external: ["vue"],
       output: {
-        // Provide global variables to use in the UMD build
         globals: {
           vue: "Vue",
         },
       },
     },
+    minify: false,
+    // outDir: "dist",
   },
 });
