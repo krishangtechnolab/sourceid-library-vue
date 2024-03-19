@@ -8,7 +8,7 @@
       :style="modalStyle"
     >
       <iframe
-        src="https://source-id-web-app-dev.vercel.app/"
+        src="https://source-id-web-app-dev.vercel.app/login"
         :style="innerElementStyle"
       ></iframe>
     </div>
