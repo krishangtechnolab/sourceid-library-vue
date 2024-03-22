@@ -49,3 +49,5 @@ Import the VerifyButton component into your Vue component:
 import VerifyButton from "vue-sourceid-verify";
 </script>
 ```
+
+Note: When the developer wants to integrate source ID verification, providing an entity key is required.

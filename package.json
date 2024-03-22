@@ -1,6 +1,6 @@
 {
   "name": "vue-sourceid-verify",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "A Vue component library for integrating SourceID verification buttons.",
   "main": "dist/src/main.d.ts",
   "module": "dist/vue-sourceid-verify.es.js",

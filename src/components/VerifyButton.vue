@@ -8,7 +8,7 @@
       :style="modalStyle"
     >
       <iframe
-        src="https://source-id-web-app-dev.vercel.app/login"
+        :src="`https://source-id-web-app-dev.vercel.app/login?id=${entityKey}`"
         :style="innerElementStyle"
       ></iframe>
     </div>
@@ -19,6 +19,7 @@
 import { ref, defineProps, CSSProperties } from "vue";
 
 interface VerifyButtonProps {
+  entityKey: string;
   text?: string;
   color?: string;
   padding?: string;
