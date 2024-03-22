@@ -18,6 +18,7 @@ Import the VerifyButton component into your Vue component:
 ```vue
 <template>
   <VerifyButton
+    entityKey="your entity key"
     text="verify"
     :padding="'20px'"
     :border="'0'"
